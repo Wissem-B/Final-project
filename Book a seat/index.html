@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="icon.ico" />
+    <title>Movie seats</title>
+  </head>
+  <body>
+    <div class="movie-container">
+      <label>Select a movie theater</label>
+      <select id="theater">
+        <option value="1">Ariana</option>
+        <option value="2">Tunis</option>
+        <option value="3">Sfax</option>
+        
+      </select>
+    </br>
+  </br>
+
+
+    </div>
+    <div class="movie-container">
+      <label>Select a movie</label>
+      <select id="movie">
+        <option value="10">Inception (10TND)</option>
+        <option value="12">Joker (12TND)</option>
+        <option value="8">Ocean's 12 (8TND)</option>
+        <option value="9">Pulp Fiction (9TND)</option>
+      </select>
+    </div>
+    <p>Select seats</p>
+
+    <ul class="showcase">
+      <li>
+        <div class="seat"></div>
+        <small>Empty</small>
+      </li>
+      <li>
+        <div class="seat selected"></div>
+        <small>Selected</small>
+      </li>
+      <li>
+        <div class="seat occupied"></div>
+        <small>Occupied</small>
+      </li>
+    </ul>
+
+    <div class="container">
+      <div class="screen"></div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+      </div>
+    </div>
+
+    <p class="text">
+      You have selected <span id="count">0</span> seats for a price of <span
+        id="price"
+        >0</span
+      >
+      TND
+    </p>
+    <div class="button">
+    <button type="button" class="btn">Submit</button> 
+    <button type="button" class="btn">Cancel</button>
+  </div>
+
+
+
+  
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+
+  <footer class="footer">
+    Author : Wissem Bouchnak. All rights reserved.
+
+</footer>
+
+
+</html>
